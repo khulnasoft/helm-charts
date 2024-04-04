@@ -11,8 +11,11 @@ KhulnaSoft Security Open Source Projects Helm Charts on a [Kubernetes](https://k
 
 ## Charts
 
-- [Starboard](https://github.com/khulnasoft-lab/starboard/tree/main/deploy/helm)
+- [Tunnel Operator](https://github.com/khulnasoft/tunnel-operator/tree/main/deploy/helm)
+- [Starboard](https://github.com/khulnasoft/starboard/tree/main/deploy/helm)
 - [Tunnel](https://github.com/khulnasoft/tunnel/tree/main/helm/tunnel)
+- [Postee](https://github.com/khulnasoft/postee/tree/main/deploy/helm/postee)
+- [harbor-scanner-tunnel](https://github.com/khulnasoft/harbor-scanner-tunnel/tree/main/helm/harbor-scanner-tunnel)
 
 ## Prerequisites
 
@@ -42,7 +45,7 @@ helm search repo khulnasoft -l
 
 Install specific helm chart
 ```
-helm install starboard khulnasoft-lab/starboard-operator
+helm install starboard khulnasoft/starboard-operator
 helm status starboard
 ```
 
