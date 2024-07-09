@@ -1,18 +1,35 @@
 apiVersion: v1
 entries:
   harbor-scanner-khulnasoft:
-    - apiVersion: v1
-      appVersion: "0.14.0"  # Ensure appVersion is a string
-      created: "2023-12-15T01:05:07.691774+06:00"
-      description: Harbor scanner adapter for KhulnaSoft Enterprise scanner
-      digest: 848d6abe7085e6648c785b38964698c331027d37
-      keywords:
-        - scanner
-        - harbor
-        - vulnerability
-      name: harbor-scanner-khulnasoft
-      sources:
-        - https://github.com/khulnasoft/harbor-scanner-khulnasoft
-      urls:
-        - https://github.com/khulnasoft/helm-charts/releases/download/harbor-scanner-khulnasoft-0.14.0/harbor-scanner-khulnasoft-0.14.0.tgz
-      version: "0.14.0"  # Ensure version is a string
+  - apiVersion: v1
+    appVersion: 0.14.0
+    created: "2023-12-15T01:05:07.691774+06:00"
+    description: Harbor scanner adapter for KhulnaSoft Enterprise scanner
+    digest: 848d6abe7085e6648c785b38964698c331027d37
+    keywords:
+    - scanner
+    - harbor
+    - vulnerability
+    name: harbor-scanner-khulnasoft
+    sources:
+    - https://github.com/khulnasoft/harbor-scanner-khulnasoft
+    urls:
+    - https://github.com/khulnasoft/helm-charts/releases/download/harbor-scanner-khulnasoft-0.14.0/harbor-scanner-khulnasoft-0.14.0.tgz
+    version: 0.14.0
+  postee:
+  - apiVersion: v2
+    appVersion: v2.13.1
+    created: "2024-07-09T15:11:47.814579644Z"
+    description: A Helm chart for Postee
+    digest: f43033c8524806e876561c5eaa2fd2ed62bd460fdb9ba2d09803055360d222f6
+    keywords:
+    - khulnasoft
+    - postee
+    name: postee
+    sources:
+    - https://github.com/khulnasoft/postee
+    type: application
+    urls:
+    - https://github.com/khulnasoft/helm-charts/releases/download/postee-v2.13.1/postee-v2.13.1.tgz
+    version: v2.13.1
+generated: "2024-07-09T15:11:47.81458835Z"
