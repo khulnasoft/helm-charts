@@ -18,6 +18,21 @@ entries:
     version: 0.14.0
   postee:
   - apiVersion: v2
+    appVersion: v2.13.2
+    created: "2024-07-09T17:05:20.654509414Z"
+    description: A Helm chart for Postee
+    digest: 1503f863c3bca42038bcaa1dfa2e5666de9c95ba4497de54065797b46c09e011
+    keywords:
+    - khulnasoft
+    - postee
+    name: postee
+    sources:
+    - https://github.com/khulnasoft/postee
+    type: application
+    urls:
+    - https://github.com/khulnasoft/helm-charts/releases/download/postee-v2.13.2/postee-v2.13.2.tgz
+    version: v2.13.2
+  - apiVersion: v2
     appVersion: v2.13.1
     created: "2024-07-09T15:11:47.814579644Z"
     description: A Helm chart for Postee
@@ -32,4 +47,4 @@ entries:
     urls:
     - https://github.com/khulnasoft/helm-charts/releases/download/postee-v2.13.1/postee-v2.13.1.tgz
     version: v2.13.1
-generated: "2024-07-09T15:11:47.81458835Z"
+generated: "2024-07-09T17:05:20.654521036Z"
